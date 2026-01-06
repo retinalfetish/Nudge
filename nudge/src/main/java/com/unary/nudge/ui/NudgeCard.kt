@@ -48,7 +48,7 @@ internal fun NudgeCard(
         shape = shape
     ) {
         Text(
-            modifier = Modifier.padding(16.dp),
+            modifier = Modifier.padding(all = 16.dp),
             text = item.message,
             style = MaterialTheme.typography.bodyMedium
         )

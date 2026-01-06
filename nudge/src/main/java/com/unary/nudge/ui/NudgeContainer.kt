@@ -51,12 +51,12 @@ internal fun NudgeContainer(
 
         val widthModifier = when (widthSizeClass) {
             WidthSizeClass.Compact -> Modifier.fillMaxWidth()
-            else -> Modifier.width(FIXED_WIDTH)
+            else -> Modifier.width(width = FIXED_WIDTH)
         }
 
         LazyColumn(
             horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.spacedBy(4.dp),
+            verticalArrangement = Arrangement.spacedBy(space = 4.dp),
             contentPadding = PaddingValues(horizontal = 8.dp),
             modifier = widthModifier
 //                .heightIn(max = MAX_HEIGHT)
