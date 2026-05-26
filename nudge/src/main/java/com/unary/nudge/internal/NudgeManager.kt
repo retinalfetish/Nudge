@@ -19,7 +19,7 @@ import java.util.concurrent.atomic.AtomicLong
  */
 internal object NudgeManager {
 
-    private val _notifications = MutableStateFlow<List<NudgeItem>>(emptyList())
+    private val _notifications = MutableStateFlow<List<NudgeItem>>(value = emptyList())
 
     /** Currently active notifications. */
     val notifications = _notifications.asStateFlow()

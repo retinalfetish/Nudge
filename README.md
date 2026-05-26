@@ -5,7 +5,7 @@ A simple Composable replacement for traditional [Toast](https://developer.androi
 <img src="/art/screenshot-default.gif" height=600 alt="Screenshot"> <img src="/art/screenshot-clickable.gif" height=600 alt="Screenshot">
 
 ## Getting Started
-The latest build is available at Maven Central (a default repository) and also [JitPack](https://jitpack.io/#com.unary/nudge).  Simply add the the library dependency to your app `build.gradle.kts`.
+The latest build is available at Maven Central (a default repository) and also [JitPack](https://jitpack.io/#com.unary/nudge).  Simply add the library dependency to your app `build.gradle.kts`.
 ```
 dependencies {
     // ...
